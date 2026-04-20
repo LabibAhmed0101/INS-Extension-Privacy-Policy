@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - INS Lead Manager</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 860px; margin: 40px auto; padding: 0 24px; color: #222; line-height: 1.7; }
+        h1 { font-size: 2rem; margin-bottom: 4px; }
+        h2 { font-size: 1.3rem; margin-top: 36px; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
+        h3 { font-size: 1.05rem; margin-top: 24px; }
+        p, li { font-size: 0.97rem; }
+        ul { padding-left: 24px; }
+        a { color: #1a73e8; }
+        .updated { color: #666; font-size: 0.9rem; margin-bottom: 32px; }
+    </style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: January 28, 2026</p>
+
+<p>This Privacy Policy describes how INS Lead Manager handles information when you use the Extension. I am committed to being transparent about what data the Extension accesses, what it stores locally, and what it sends to third-party services that you configure.</p>
+
+<h2>Who This Extension Is For</h2>
+<p>INS Lead Manager is a Chrome Extension built for internal use by real estate and solar sales agents. It is distributed directly to team members and is not intended for the general public.</p>
+
+<h2>Information the Extension Accesses</h2>
+
+<h3>Google Account Email</h3>
+<p>When you sign in with Google, the Extension receives your Google account email address via OAuth. This is used solely to authenticate your identity and load your team's lead data from a Google Sheet that you have access to. Your email is not stored on any external server operated by Me.</p>
+
+<h3>Lead and Property Data</h3>
+<p>The Extension reads and writes lead data (names, phone numbers, property addresses, assessment notes) entered by you into the popup. This data is stored locally in your browser using <code>chrome.storage.local</code> and is never transmitted to any server operated by Me. It is transmitted only to the third-party services you explicitly configure — Podio and Discord — when you trigger a lead submission.</p>
+
+<h3>Page Content on Supported Sites</h3>
+<p>The Extension injects scripts into supported websites (Zillow, Redfin, Realtor.com, county property appraiser sites, Podio, and the Enzo Dialer agent portal) to read property data displayed on the page and to automate form filling on your behalf. This data is processed locally within your browser and is not sent to any server operated by Me.</p>
+
+<h3>Selected Text (Text-to-Speech)</h3>
+<p>When you trigger the text-to-speech feature (Ctrl+Shift+X), the text you have selected on the page is passed to the browser's built-in Web Speech API. This processing happens locally within the browser. No text is sent to any external server operated by Me.</p>
+
+<h2>Information I Do NOT Collect</h2>
+<ul>
+    <li>I do not collect IP addresses.</li>
+    <li>I do not collect browser type, version, or device information.</li>
+    <li>I do not have a server, database, or analytics system.</li>
+    <li>I do not collect usage statistics or telemetry.</li>
+    <li>I do not use cookies.</li>
+    <li>I do not collect information from users under the age of 16, and the Extension is not directed at minors.</li>
+</ul>
+
+<h2>Third-Party Services You Configure</h2>
+<p>The Extension sends data to the following third-party services solely when you trigger an action that requires it:</p>
+<ul>
+    <li><strong>Podio</strong> — lead submission data is sent to your configured Podio workspace when you submit a lead.</li>
+    <li><strong>Discord</strong> — a notification is sent to your configured Discord webhook channel when you submit a lead.</li>
+    <li><strong>Google Sheets API</strong> — read-only access to your team's Google Sheet to load agent and lead routing data into the popup.</li>
+</ul>
+<p>These services have their own privacy policies. I am not responsible for the data practices of Podio, Discord, or Google.</p>
+
+<h2>Local Data Storage</h2>
+<p>All Extension settings, lead data, and preferences are stored locally in your browser using the Chrome <code>chrome.storage.local</code> API. This data remains on your device and is not accessible to Me. You can clear this data at any time by removing the Extension from Chrome or clearing extension storage via <code>chrome://extensions</code>.</p>
+
+<h2>Data Retention</h2>
+<p>I do not retain any personal data on external servers because I do not operate any servers. All data stored by the Extension lives locally in your browser and persists until you clear it or uninstall the Extension.</p>
+
+<h2>Your Rights</h2>
+<p>Because all data is stored locally on your device, you have full control over it at all times. You can delete all Extension data by uninstalling the Extension or clearing its local storage from <code>chrome://extensions</code>. For any questions about data transmitted to Podio, Discord, or Google Sheets, please refer to the respective service's privacy policy and your account settings on those platforms.</p>
+
+<h2>Security</h2>
+<p>The Extension does not transmit personal data over the network except to the third-party services described above, all of which use HTTPS. No personal data is stored on any server operated by Me.</p>
+
+<h2>Changes to This Privacy Policy</h2>
+<p>I may update this Privacy Policy from time to time. Changes are effective when posted on this page. The "Last updated" date at the top of this page reflects the date of the most recent revision. I encourage you to review this page periodically.</p>
+
+<h2>Contact Me</h2>
+<p>If you have any questions about this Privacy Policy, you can contact me by email:</p>
+<ul>
+    <li><a href="mailto:labib.ahmed0101@gmail.com">labib.ahmed0101@gmail.com</a></li>
+</ul>
+
+</body>
+</html>
